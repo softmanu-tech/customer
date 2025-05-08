@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
     } catch (error) {
       toast({
         title: "Error",
-        description: "There was a problem sending your message. Please try again.",
+        description: "Ooops!! It seems you are using a Phone.Kindly use a computer to send the message.",
         variant: "destructive",
       })
     } finally {

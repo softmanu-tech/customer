@@ -78,7 +78,7 @@ const Header: React.FC = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.6 }}
             >
-              <a href="/cv.pdf" download>
+              <a href="/CV.pdf" download>
                 <Button className="bg-gold-600 hover:bg-gold-700 text-white">
                   Download Resume
                 </Button>
